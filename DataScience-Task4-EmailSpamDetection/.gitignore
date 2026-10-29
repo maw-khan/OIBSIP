@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.DS_Store
+
+# Generated model artifacts
+*.joblib
+*.pkl
+
+# Local editor settings
+.vscode/
