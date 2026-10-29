@@ -17,6 +17,7 @@ A machine-learning project that classifies Emails as **spam** or **ham** (legiti
 
 ```text
 Email-Spam-Detection/
+├── screenshots
 ├── Email_Spam_Detection.ipynb
 ├── requirements.txt
 ├── README.md
