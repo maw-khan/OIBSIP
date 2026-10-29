@@ -1,6 +1,6 @@
-# SMS Spam Detection
+# Email Spam Detection
 
-A machine-learning project that classifies SMS messages as **spam** or **ham** (legitimate messages). The notebook covers data exploration, TF-IDF feature extraction, model training, evaluation, predictions, and saving a reusable pipeline.
+A machine-learning project that classifies Emails as **spam** or **ham** (legitimate messages). The notebook covers data exploration, TF-IDF feature extraction, model training, evaluation, predictions, and saving a reusable pipeline.
 
 ## Project Features
 
@@ -16,14 +16,14 @@ A machine-learning project that classifies SMS messages as **spam** or **ham** (
 ## Project Structure
 
 ```text
-SMS-Spam-Detection/
-├── SMS_Spam_Detection.ipynb
+Email-Spam-Detection/
+├── Email_Spam_Detection.ipynb
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
-The notebook creates `sms_spam_detection_pipeline.joblib` when its final model-saving cell is run. This generated file is excluded from version control by default.
+The notebook creates `email_spam_detection_pipeline.joblib` when its final model-saving cell is run. This generated file is excluded from version control by default.
 
 ## Requirements
 
@@ -35,8 +35,8 @@ The notebook creates `sms_spam_detection_pipeline.joblib` when its final model-s
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/SMS-Spam-Detection.git
-cd SMS-Spam-Detection
+git clone [https://github.com/maw-khan/SMS-Spam-Detection.git](https://github.com/maw-khan/OIBSIP/
+cd DataScience-Task4-EmailSpamDetection
 ```
 
 ### 2. Create and activate a virtual environment
@@ -62,11 +62,11 @@ python -m pip install -r requirements.txt
 
 ### 4. Open the notebook
 
-Open `SMS_Spam_Detection.ipynb` in VS Code or Jupyter Notebook, select the environment created above as the kernel, and run the cells from top to bottom.
+Open `Email_Spam_Detection.ipynb` in VS Code or Jupyter Notebook, select the environment created above as the kernel, and run the cells from top to bottom.
 
 ## Dataset
 
-The notebook loads a tab-separated SMS spam dataset from a public GitHub repository. An internet connection is required for the initial download. Refer to the dataset source linked in the notebook for its provenance and terms.
+The notebook loads a tab-separated Email spam dataset from a public GitHub repository. An internet connection is required for the initial download. Refer to the dataset source linked in the notebook for its provenance and terms.
 
 ## Evaluation
 
