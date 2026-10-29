@@ -128,7 +128,7 @@ Model performance depends on the dataset, preprocessing choices, train/test spli
 
 ## Author
 
-**Maw Khan**  
+**Muhammad Ali Waris Khan**  
 [GitHub Profile](https://github.com/maw-khan)
 
 ---
